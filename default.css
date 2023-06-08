@@ -1,0 +1,38 @@
+.title {
+    margin-bottom: 4px;
+    font-size: 108%;
+    font-weight: bold;
+}
+
+.author {
+    margin-bottom: 16px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: solid 1px #000000;
+}
+
+.text {
+    padding: 50px 70px;
+}
+
+.transform {
+    padding: 0 6px;
+}
+
+.angle {
+    padding: 0 6px;
+    text-align: center;
+}
+
+.remarks {
+    padding: 0 6px;
+}
+
+.input {
+    width: 90%;
+}

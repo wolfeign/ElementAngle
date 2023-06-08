@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Wolfeign">
+    <meta name="description" content="CSSのtransformで変形されたHTML要素の角度を得るJavaScript。JavaScript to get angle of HTML element transformed with CSS transform.">
+    <meta name=”keywords” content=”角度,回転,HTML,要素,CSS,style,transform,rotate,degree,radian,JavaScript”>
+
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="default.css">
+
+    <title>要素の回転角度の取得デモ 1.00</title>
+</head>
+
+<body>
+    <div class="title">
+        要素の回転角度の取得デモ<br />
+        Demonstration of getting the rotation angle of an element.
+    </div>
+
+    <div class="author">by Wolfeign (<a href="https://twitter.com/wolfeign" target="_blank">@wolfeign</a>)</div>
+
+    <table>
+        <tbody>
+            <tr>
+                <th><div></div></th>
+                <th><div class="transform">transform</div></th>
+                <th><div class="angle">角度</div></th>
+                <th><div class="remarks">備考(Remarks)</div></th>
+            </tr>
+
+            <tr>
+                <td><div id="text0" class="text">回転してない要素</div></td>
+                <td><div id="transform0" class="transform"></div></td>
+                <td><div id="angle0" class="angle"></div></td>
+                <td><div class="remarks"></div></td>
+            </tr>
+
+            <tr>
+                <td><div id="text1" class="text" style="transform: rotate(100deg) rotate(29.3deg);">回転した要素</div></td>
+                <td><div id="transform1" class="transform"></div></td>
+                <td><div id="angle1" class="angle"></div></td>
+                <td><div class="remarks">rotateを複数使用した場合は合計の角度<br />Total angle if multiple rotates are used.</div></td>
+            </tr>
+
+            <tr>
+                <td><div id="text2" class="text" style="transform: rotate(-20deg);">回転した要素</div></td>
+                <td><div id="transform2" class="transform"></div></td>
+                <td><div id="angle2" class="angle"></div></td>
+                <td><div class="remarks">得られる角度は 0°≦θ＜360°<br />The obtained angle is 0°≦θ＜360°</div></td>
+            </tr>
+
+            <tr>
+                <td><div id="text3" class="text" style="transform: scale(2, 1.5) rotate(18deg)">回転した要素</div></td>
+                <td><div id="transform3" class="transform"></div></td>
+                <td><div id="angle3" class="angle"></div></td>
+                <td><div class="remarks">scale等を使用しても問題ない<br />There is no problem using scale etc.</div></td>
+            </tr>
+
+            <tr>
+                <td><div id="text4" class="text" style="transform: rotate(2.8rad) translate(10px, 18px) rotate(45deg) scale(1.6);">回転した要素</div></td>
+                <td><div id="transform4" class="transform"></div></td>
+                <td><div id="angle4" class="angle"></div></td>
+                <td><div class="remarks"></div></td>
+            </tr>
+
+            <tr>
+                <td><div id="text" class="text">回転した要素</div></td>
+                <td><div id="transform" class="transform"><input type="text" id="input" class="input" /></div></td>
+                <td><div id="angle" class="angle"></div></td>
+                <td><div class="remarks">transformを自由に変更可<br />Freely change transform.</div></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
