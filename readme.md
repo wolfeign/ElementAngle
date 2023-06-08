@@ -1,43 +1,43 @@
 # HTML Element Angle
 
-HTML—v‘f‚ÌŠp“x‚ğ‹‚ß‚éŠÖ”B
+HTMLè¦ç´ ã®è§’åº¦ã‚’æ±‚ã‚ã‚‹é–¢æ•°ã€‚
 
 A function to find the angle of an HTML element.
 
-### ƒfƒ‚ (Demo)
+### ãƒ‡ãƒ¢ (Demo)
 
 https://wolfeign.github.io/ElementAngle/
 
-‚»‚ê‚¼‚ê‚ÌŠp“x‚ÍÀs‚ÉŒvZ‚µ‚Ä‚¢‚éB
+ãã‚Œãã‚Œã®è§’åº¦ã¯å®Ÿè¡Œæ™‚ã«è¨ˆç®—ã—ã¦ã„ã‚‹ã€‚
 
 Each angle is calculated at runtime.
 
-### g—p•û–@ (Usage)
+### ä½¿ç”¨æ–¹æ³• (Usage)
 
-ŠÖ”‚ÍˆÈ‰º‚Ì2í
-EgetElementAngleByRadian(element, win)
-EgetElementAngleByDegree(element, win)
+é–¢æ•°ã¯ä»¥ä¸‹ã®2ç¨®
+ getElementAngleByRadian(element, win)
+ getElementAngleByDegree(element, win)
 
-ˆø”‚Ìelement‚Í—v‘fAwin‚Í’Êí‚ÍwindowƒIƒuƒWƒFƒNƒg‚ÅÈ—ª‰Â”\B
-•Ô‚è’l‚Íã‚ªŒÊ“x‚Å‰º‚ª“x”BƒGƒ‰[‚ª‹N‚±‚ê‚Înull‚ğ•Ô‚·B
+å¼•æ•°ã®elementã¯è¦ç´ ã€winã¯é€šå¸¸ã¯windowã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã§çœç•¥å¯èƒ½ã€‚
+è¿”ã‚Šå€¤ã¯ä¸ŠãŒå¼§åº¦ã§ä¸‹ãŒåº¦æ•°ã€‚ã‚¨ãƒ©ãƒ¼ãŒèµ·ã“ã‚Œã°nullã‚’è¿”ã™ã€‚
 
 The following two types of functions.
-EgetElementAngleByRadian(element, win)
-EgetElementAngleByDegree(element, win)
+ getElementAngleByRadian(element, win)
+ getElementAngleByDegree(element, win)
 
 The argument element is an element and win is usually a window object and can be omitted.
 The return value is radians on the top and degrees on the bottom. Returns null if an error occurs.
 
-### Šù’m‚Ì–â‘è (Known Issues)
+### æ—¢çŸ¥ã®å•é¡Œ (Known Issues)
 
-¡‚Ì‚Æ‚±‚ë‚È‚µ
+ä»Šã®ã¨ã“ã‚ãªã—
 
 None for now.
 
-### ìÒ (Author)
+### ä½œè€… (Author)
 
 Wolfeign(@wolfeign)
 
-### ƒ‰ƒCƒZƒ“ƒX (License)
+### ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ (License)
 
 The MIT License (MIT)
