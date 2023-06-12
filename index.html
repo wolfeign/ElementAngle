@@ -9,7 +9,7 @@
     <script type="text/javascript" src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="default.css">
 
-    <title>要素の回転角度の取得デモ 1.00</title>
+    <title>要素の回転角度の取得デモ 1.01</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
             <tr>
                 <th><div></div></th>
                 <th><div class="transform">transform</div></th>
-                <th><div class="angle">角度</div></th>
+                <th><div class="angle">Angle</div></th>
                 <th><div class="remarks">備考(Remarks)</div></th>
             </tr>
 
@@ -51,10 +51,10 @@
             </tr>
 
             <tr>
-                <td><div id="text3" class="text" style="transform: scale(2, 1.5) rotate(18deg)">回転した要素</div></td>
+                <td><div id="text3" class="text" style="transform: scale(2, 1.5) rotate(26deg);">回転した要素</div></td>
                 <td><div id="transform3" class="transform"></div></td>
                 <td><div id="angle3" class="angle"></div></td>
-                <td><div class="remarks">scale等を使用しても問題ない<br />There is no problem using scale etc.</div></td>
+                <td><div class="remarks">scaleの記述位置によっては得られる角度が異なる場合がある<br />The angle may differ depending on the description position of scale.</div></td>
             </tr>
 
             <tr>
